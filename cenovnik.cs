@@ -7,24 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GYM.klase
+namespace GYM
 {
     using System;
     using System.Collections.Generic;
     
     public partial class cenovnik
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public cenovnik()
-        {
-            this.stampanjeracunas = new HashSet<stampanjeracuna>();
-        }
-    
         public int cena { get; set; }
         public string tip { get; set; }
         public int IDCena { get; set; }
+        public string poslednjePromene { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<stampanjeracuna> stampanjeracunas { get; set; }
+        public virtual termin termin { get; set; }
     }
 }

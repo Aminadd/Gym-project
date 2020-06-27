@@ -7,24 +7,39 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GYM.klase
+namespace GYM
 {
     using System;
     using System.Collections.Generic;
     
     public partial class termin
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public string datum { get; set; }
+        public int IDtermina { get; set; }
+        public string vreme { get; set; }
+        public string Tiptreninga { get; set; }
+        public string ImeiPrezime { get; set; }
+        public int arhivirano { get; set; }
+    
+        public virtual cenovnik cenovnik { get; set; }
+
         public termin()
         {
-            this.stampanjeracunas = new HashSet<stampanjeracuna>();
+            this.datum = null;
+            this.IDtermina = 0;
+            this.vreme = null;
+            this.Tiptreninga = null;
+            this.ImeiPrezime = null;
+            this.arhivirano = 0;
         }
-    
-        public System.DateTime datum { get; set; }
-        public int IDtermina { get; set; }
-        public string Tiptreninga { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<stampanjeracuna> stampanjeracunas { get; set; }
+        public termin(String datum, String IDtermina, String vreme, String Tiptreninga, String ImeiPrezime, String arhivirano)
+        {
+            this.datum = null;
+            this.IDtermina = 0;
+            this.vreme = null;
+            this.Tiptreninga = null;
+            this.ImeiPrezime = null;
+            this.arhivirano = 0;
+        }
     }
 }

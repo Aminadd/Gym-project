@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GYM.klase
+namespace GYM
 {
+    using Klase;
     using System;
     using System.Collections.Generic;
-    
+    using System.Data;
+
     public partial class osoba
     {
         public string Ime { get; set; }
@@ -24,9 +26,42 @@ namespace GYM.klase
     
         public virtual clan clan { get; set; }
         public virtual korisnik korisnik { get; set; }
+
         public override string ToString()
         {
             return this.JMBG + " " + this.Ime + " " + this.Prezime + " " + this.email + " " + this.pol + " " + this.adresa + " " + this.brTelefona;
         }
+        public osoba()
+        {
+            this.Ime = null;
+            this.Prezime = null;
+            this.brTelefona = null;
+            this.adresa = null;
+            this.email = null;
+            this.pol = null;
+            this.JMBG = null;
+        }
+        public osoba(String Ime, String Prezime, String brTelefona, String adresa, String email, String pol, String JMBG)
+        {
+            this.Ime = null;
+            this.Prezime = null;
+            this.brTelefona = null;
+            this.adresa = null;
+            this.email = null;
+            this.pol = null;
+            this.JMBG = null;
+        }
+
+        public DataTable radniciBox()
+        {
+            DataTable dt = Bazaa.radniciBox(this);
+            return dt;
+        }
+        public DataTable LBoxClanovi()
+        {
+            DataTable dt = Bazaa.LBoxClanovi(this);
+            return dt;
+        }
     }
 }
+

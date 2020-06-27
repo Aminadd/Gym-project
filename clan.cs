@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GYM.klase
+namespace GYM
 {
     using System;
     using System.Collections.Generic;
@@ -15,8 +15,8 @@ namespace GYM.klase
     public partial class clan
     {
         public string IDClana { get; set; }
-        public Nullable<System.DateTime> datumRodj { get; set; }
-        public Nullable<System.DateTime> datumUpisa { get; set; }
+        public string datumRodj { get; set; }
+        public string datumUpisa { get; set; }
     
         public virtual osoba osoba { get; set; }
         public virtual rezultati rezultati { get; set; }

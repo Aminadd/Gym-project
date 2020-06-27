@@ -7,18 +7,59 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GYM.klase
+namespace GYM
 {
+    using Klase;
     using System;
     using System.Collections.Generic;
-    
+    using System.Data;
+
     public partial class korisnik
     {
+        public string KorisnickoIme { get; set; }
         public string IDKorisnika { get; set; }
         public string sifra { get; set; }
-        public string KorisnickoIme { get; set; }
         public string tip { get; set; }
     
         public virtual osoba osoba { get; set; }
+        public korisnik()
+        {
+
+            this.KorisnickoIme = null;
+            this.IDKorisnika = null;
+            this.sifra = "";
+            this.tip = null;
+        }
+        public korisnik(String KorisnickoIme, String IDKorisnika, String sifra, String tip)
+        {
+
+            this.KorisnickoIme = null;
+            this.IDKorisnika = null;
+            this.sifra = "";
+            this.tip = null;
+        }
+        public bool proveraKorisnika()
+        {
+            if (Bazaa.ProveraKorisnika(this))
+                return true;
+            else return false;
+        }
+        public DataTable ulogujNadleznog()
+        {
+            DataTable dt = Bazaa.UlogujNadleznog(this);
+            return dt;
+        }
+        public DataTable ulogujRadnika()
+        {
+            DataTable dt = Bazaa.UlogujRadnika(this);
+            return dt;
+        }
+        public bool promenaLozinke(string novasifra)
+        {
+            if (Bazaa.resetLozinku(this, novasifra))
+                return true;
+            return false;
+        }
+
     }
 }
