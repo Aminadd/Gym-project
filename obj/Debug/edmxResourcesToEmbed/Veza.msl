@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GymNModelStoreContainer" CdmEntityContainer="GymNEntities">
+    <EntitySetMapping Name="cenovniks">
+      <EntityTypeMapping TypeName="GymNModel.cenovnik">
+        <MappingFragment StoreEntitySet="cenovnik">
+          <ScalarProperty Name="cena" ColumnName="cena" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="IDCena" ColumnName="IDCena" />
+          <ScalarProperty Name="poslednjePromene" ColumnName="poslednjePromene" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clans">
+      <EntityTypeMapping TypeName="GymNModel.clan">
+        <MappingFragment StoreEntitySet="clan">
+          <ScalarProperty Name="IDClana" ColumnName="IDClana" />
+          <ScalarProperty Name="datumRodj" ColumnName="datumRodj" />
+          <ScalarProperty Name="datumUpisa" ColumnName="datumUpisa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="korisniks">
+      <EntityTypeMapping TypeName="GymNModel.korisnik">
+        <MappingFragment StoreEntitySet="korisnik">
+          <ScalarProperty Name="KorisnickoIme" ColumnName="KorisnickoIme" />
+          <ScalarProperty Name="IDKorisnika" ColumnName="IDKorisnika" />
+          <ScalarProperty Name="sifra" ColumnName="sifra" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="osobas">
+      <EntityTypeMapping TypeName="GymNModel.osoba">
+        <MappingFragment StoreEntitySet="osoba">
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="brTelefona" ColumnName="brTelefona" />
+          <ScalarProperty Name="adresa" ColumnName="adresa" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pol" ColumnName="pol" />
+          <ScalarProperty Name="JMBG" ColumnName="JMBG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rezultatis">
+      <EntityTypeMapping TypeName="GymNModel.rezultati">
+        <MappingFragment StoreEntitySet="rezultati">
+          <ScalarProperty Name="ime" ColumnName="ime" />
+          <ScalarProperty Name="visina" ColumnName="visina" />
+          <ScalarProperty Name="tezina" ColumnName="tezina" />
+          <ScalarProperty Name="ruke" ColumnName="ruke" />
+          <ScalarProperty Name="noge" ColumnName="noge" />
+          <ScalarProperty Name="struk" ColumnName="struk" />
+          <ScalarProperty Name="JMBG1" ColumnName="JMBG1" />
+          <ScalarProperty Name="visina_epic" ColumnName="visina_epic" />
+          <ScalarProperty Name="tezina_epic" ColumnName="tezina_epic" />
+          <ScalarProperty Name="ruke_epic" ColumnName="ruke_epic" />
+          <ScalarProperty Name="noge_epic" ColumnName="noge_epic" />
+          <ScalarProperty Name="struk_epic" ColumnName="struk_epic" />
+          <ScalarProperty Name="vremeUnosa" ColumnName="vremeUnosa" />
+          <ScalarProperty Name="vremeUnosa_epic" ColumnName="vremeUnosa_epic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="statistikas">
+      <EntityTypeMapping TypeName="GymNModel.statistika">
+        <MappingFragment StoreEntitySet="statistika">
+          <ScalarProperty Name="IDstatistika" ColumnName="IDstatistika" />
+          <ScalarProperty Name="mesec" ColumnName="mesec" />
+          <ScalarProperty Name="godina" ColumnName="godina" />
+          <ScalarProperty Name="prihod" ColumnName="prihod" />
+          <ScalarProperty Name="IDrezultat" ColumnName="IDrezultat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="termins">
+      <EntityTypeMapping TypeName="GymNModel.termin">
+        <MappingFragment StoreEntitySet="termin">
+          <ScalarProperty Name="datum" ColumnName="datum" />
+          <ScalarProperty Name="IDtermina" ColumnName="IDtermina" />
+          <ScalarProperty Name="vreme" ColumnName="vreme" />
+          <ScalarProperty Name="Tiptreninga" ColumnName="Tiptreninga" />
+          <ScalarProperty Name="ImeiPrezime" ColumnName="ImeiPrezime" />
+          <ScalarProperty Name="arhivirano" ColumnName="arhivirano" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

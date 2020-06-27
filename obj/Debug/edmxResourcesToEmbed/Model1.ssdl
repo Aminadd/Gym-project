@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GymModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cenovnik">
+    <Key>
+      <PropertyRef Name="IDcena" />
+    </Key>
+    <Property Name="cena" Type="int" Nullable="false" />
+    <Property Name="tip" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDcena" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="clan">
+    <Key>
+      <PropertyRef Name="IDClana" />
+    </Key>
+    <Property Name="IDClana" Type="int" Nullable="false" />
+    <Property Name="datumRodj" Type="date" />
+    <Property Name="datumUpisa" Type="date" />
+  </EntityType>
+  <EntityType Name="korisnik">
+    <Key>
+      <PropertyRef Name="IDKorisnika" />
+    </Key>
+    <Property Name="IDKorisnika" Type="int" Nullable="false" />
+    <Property Name="sifra" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="KorisnickoIme" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="osoba">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="IDOsobe" Type="int" Nullable="false" />
+    <Property Name="Ime" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Prezime" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="brTelefona" Type="int" />
+    <Property Name="adresa" Type="varchar" MaxLength="30" />
+    <Property Name="email" Type="varchar" MaxLength="30" />
+    <Property Name="pol" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="JMBG" Type="varchar" MaxLength="13" Nullable="false" />
+  </EntityType>
+  <EntityType Name="rezultati">
+    <Key>
+      <PropertyRef Name="IDrezultati" />
+    </Key>
+    <Property Name="IDrezultati" Type="int" Nullable="false" />
+    <Property Name="ime" Type="varchar" MaxLength="15" />
+    <Property Name="visina" Type="float" Nullable="false" />
+    <Property Name="tezina" Type="float" Nullable="false" />
+    <Property Name="ruke" Type="float" Nullable="false" />
+    <Property Name="noge" Type="float" Nullable="false" />
+    <Property Name="struk" Type="float" Nullable="false" />
+    <Property Name="JMBG" Type="varchar" MaxLength="13" />
+  </EntityType>
+  <EntityType Name="stampanjeracuna">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="IDcenaa" Type="int" />
+    <Property Name="IDterminaa" Type="int" />
+  </EntityType>
+  <EntityType Name="statistika">
+    <Key>
+      <PropertyRef Name="IDstatistike" />
+    </Key>
+    <Property Name="IDstatistike" Type="int" Nullable="false" />
+    <Property Name="mesec" Type="date" />
+    <Property Name="Godina" Type="date" />
+    <Property Name="prihod" Type="float" />
+    <Property Name="IDrezultat" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="termin">
+    <Key>
+      <PropertyRef Name="IDtermina" />
+    </Key>
+    <Property Name="datum" Type="date" Nullable="false" />
+    <Property Name="IDtermina" Type="int" Nullable="false" />
+    <Property Name="Tiptreninga" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__clan__IDClana__5629CD9C">
+    <End Role="osoba" Type="Self.osoba" Multiplicity="1" />
+    <End Role="clan" Type="Self.clan" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="osoba">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="clan">
+        <PropertyRef Name="IDClana" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__korisnik__IDKori__534D60F1">
+    <End Role="osoba" Type="Self.osoba" Multiplicity="1" />
+    <End Role="korisnik" Type="Self.korisnik" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="osoba">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="korisnik">
+        <PropertyRef Name="IDKorisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__stampanje__IDcen__4222D4EF">
+    <End Role="cenovnik" Type="Self.cenovnik" Multiplicity="0..1" />
+    <End Role="stampanjeracuna" Type="Self.stampanjeracuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cenovnik">
+        <PropertyRef Name="IDcena" />
+      </Principal>
+      <Dependent Role="stampanjeracuna">
+        <PropertyRef Name="IDcenaa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__stampanje__IDter__4316F928">
+    <End Role="termin" Type="Self.termin" Multiplicity="0..1" />
+    <End Role="stampanjeracuna" Type="Self.stampanjeracuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="termin">
+        <PropertyRef Name="IDtermina" />
+      </Principal>
+      <Dependent Role="stampanjeracuna">
+        <PropertyRef Name="IDterminaa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__statistik__IDrez__38996AB5">
+    <End Role="rezultati" Type="Self.rezultati" Multiplicity="1" />
+    <End Role="statistika" Type="Self.statistika" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rezultati">
+        <PropertyRef Name="IDrezultati" />
+      </Principal>
+      <Dependent Role="statistika">
+        <PropertyRef Name="IDrezultat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GymModelStoreContainer">
+    <EntitySet Name="cenovnik" EntityType="Self.cenovnik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="clan" EntityType="Self.clan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="korisnik" EntityType="Self.korisnik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="osoba" EntityType="Self.osoba" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="rezultati" EntityType="Self.rezultati" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stampanjeracuna" EntityType="Self.stampanjeracuna" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="statistika" EntityType="Self.statistika" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="termin" EntityType="Self.termin" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__clan__IDClana__5629CD9C" Association="Self.FK__clan__IDClana__5629CD9C">
+      <End Role="osoba" EntitySet="osoba" />
+      <End Role="clan" EntitySet="clan" />
+    </AssociationSet>
+    <AssociationSet Name="FK__korisnik__IDKori__534D60F1" Association="Self.FK__korisnik__IDKori__534D60F1">
+      <End Role="osoba" EntitySet="osoba" />
+      <End Role="korisnik" EntitySet="korisnik" />
+    </AssociationSet>
+    <AssociationSet Name="FK__stampanje__IDcen__4222D4EF" Association="Self.FK__stampanje__IDcen__4222D4EF">
+      <End Role="cenovnik" EntitySet="cenovnik" />
+      <End Role="stampanjeracuna" EntitySet="stampanjeracuna" />
+    </AssociationSet>
+    <AssociationSet Name="FK__stampanje__IDter__4316F928" Association="Self.FK__stampanje__IDter__4316F928">
+      <End Role="termin" EntitySet="termin" />
+      <End Role="stampanjeracuna" EntitySet="stampanjeracuna" />
+    </AssociationSet>
+    <AssociationSet Name="FK__statistik__IDrez__38996AB5" Association="Self.FK__statistik__IDrez__38996AB5">
+      <End Role="rezultati" EntitySet="rezultati" />
+      <End Role="statistika" EntitySet="statistika" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

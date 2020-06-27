@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GymModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cenovnik">
+    <Key>
+      <PropertyRef Name="IDcena" />
+    </Key>
+    <Property Name="cena" Type="Int32" Nullable="false" />
+    <Property Name="tip" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDcena" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="stampanjeracunas" Relationship="Self.FK__stampanje__IDcen__4222D4EF" FromRole="cenovnik" ToRole="stampanjeracuna" />
+  </EntityType>
+  <EntityType Name="clan">
+    <Key>
+      <PropertyRef Name="IDClana" />
+    </Key>
+    <Property Name="IDClana" Type="Int32" Nullable="false" />
+    <Property Name="datumRodj" Type="DateTime" Precision="0" />
+    <Property Name="datumUpisa" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="osoba" Relationship="Self.FK__clan__IDClana__5629CD9C" FromRole="clan" ToRole="osoba" />
+  </EntityType>
+  <EntityType Name="korisnik">
+    <Key>
+      <PropertyRef Name="IDKorisnika" />
+    </Key>
+    <Property Name="IDKorisnika" Type="Int32" Nullable="false" />
+    <Property Name="sifra" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="KorisnickoIme" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="osoba" Relationship="Self.FK__korisnik__IDKori__534D60F1" FromRole="korisnik" ToRole="osoba" />
+  </EntityType>
+  <EntityType Name="osoba">
+    <Key>
+      <PropertyRef Name="IDOsobe" />
+    </Key>
+    <Property Name="IDOsobe" Type="Int32" Nullable="false" />
+    <Property Name="Ime" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Prezime" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="brTelefona" Type="Int32" />
+    <Property Name="adresa" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="pol" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="JMBG" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="clan" Relationship="Self.FK__clan__IDClana__5629CD9C" FromRole="osoba" ToRole="clan" />
+    <NavigationProperty Name="korisnik" Relationship="Self.FK__korisnik__IDKori__534D60F1" FromRole="osoba" ToRole="korisnik" />
+  </EntityType>
+  <EntityType Name="rezultati">
+    <Key>
+      <PropertyRef Name="IDrezultati" />
+    </Key>
+    <Property Name="IDrezultati" Type="Int32" Nullable="false" />
+    <Property Name="ime" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="visina" Type="Double" Nullable="false" />
+    <Property Name="tezina" Type="Double" Nullable="false" />
+    <Property Name="ruke" Type="Double" Nullable="false" />
+    <Property Name="noge" Type="Double" Nullable="false" />
+    <Property Name="struk" Type="Double" Nullable="false" />
+    <Property Name="JMBG" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="statistikas" Relationship="Self.FK__statistik__IDrez__38996AB5" FromRole="rezultati" ToRole="statistika" />
+  </EntityType>
+  <EntityType Name="stampanjeracuna">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="IDcenaa" Type="Int32" />
+    <Property Name="IDterminaa" Type="Int32" />
+    <NavigationProperty Name="cenovnik" Relationship="Self.FK__stampanje__IDcen__4222D4EF" FromRole="stampanjeracuna" ToRole="cenovnik" />
+    <NavigationProperty Name="termin" Relationship="Self.FK__stampanje__IDter__4316F928" FromRole="stampanjeracuna" ToRole="termin" />
+  </EntityType>
+  <EntityType Name="statistika">
+    <Key>
+      <PropertyRef Name="IDstatistike" />
+    </Key>
+    <Property Name="IDstatistike" Type="Int32" Nullable="false" />
+    <Property Name="mesec" Type="DateTime" Precision="0" />
+    <Property Name="Godina" Type="DateTime" Precision="0" />
+    <Property Name="prihod" Type="Double" />
+    <Property Name="IDrezultat" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="rezultati" Relationship="Self.FK__statistik__IDrez__38996AB5" FromRole="statistika" ToRole="rezultati" />
+  </EntityType>
+  <EntityType Name="termin">
+    <Key>
+      <PropertyRef Name="IDtermina" />
+    </Key>
+    <Property Name="datum" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDtermina" Type="Int32" Nullable="false" />
+    <Property Name="Tiptreninga" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="stampanjeracunas" Relationship="Self.FK__stampanje__IDter__4316F928" FromRole="termin" ToRole="stampanjeracuna" />
+  </EntityType>
+  <Association Name="FK__stampanje__IDcen__4222D4EF">
+    <End Role="cenovnik" Type="Self.cenovnik" Multiplicity="0..1" />
+    <End Role="stampanjeracuna" Type="Self.stampanjeracuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cenovnik">
+        <PropertyRef Name="IDcena" />
+      </Principal>
+      <Dependent Role="stampanjeracuna">
+        <PropertyRef Name="IDcenaa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__clan__IDClana__5629CD9C">
+    <End Role="osoba" Type="Self.osoba" Multiplicity="1" />
+    <End Role="clan" Type="Self.clan" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="osoba">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="clan">
+        <PropertyRef Name="IDClana" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__korisnik__IDKori__534D60F1">
+    <End Role="osoba" Type="Self.osoba" Multiplicity="1" />
+    <End Role="korisnik" Type="Self.korisnik" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="osoba">
+        <PropertyRef Name="IDOsobe" />
+      </Principal>
+      <Dependent Role="korisnik">
+        <PropertyRef Name="IDKorisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__statistik__IDrez__38996AB5">
+    <End Role="rezultati" Type="Self.rezultati" Multiplicity="1" />
+    <End Role="statistika" Type="Self.statistika" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rezultati">
+        <PropertyRef Name="IDrezultati" />
+      </Principal>
+      <Dependent Role="statistika">
+        <PropertyRef Name="IDrezultat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__stampanje__IDter__4316F928">
+    <End Role="termin" Type="Self.termin" Multiplicity="0..1" />
+    <End Role="stampanjeracuna" Type="Self.stampanjeracuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="termin">
+        <PropertyRef Name="IDtermina" />
+      </Principal>
+      <Dependent Role="stampanjeracuna">
+        <PropertyRef Name="IDterminaa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GymEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cenovniks" EntityType="Self.cenovnik" />
+    <EntitySet Name="clans" EntityType="Self.clan" />
+    <EntitySet Name="korisniks" EntityType="Self.korisnik" />
+    <EntitySet Name="osobas" EntityType="Self.osoba" />
+    <EntitySet Name="rezultatis" EntityType="Self.rezultati" />
+    <EntitySet Name="stampanjeracunas" EntityType="Self.stampanjeracuna" />
+    <EntitySet Name="statistikas" EntityType="Self.statistika" />
+    <EntitySet Name="termins" EntityType="Self.termin" />
+    <AssociationSet Name="FK__stampanje__IDcen__4222D4EF" Association="Self.FK__stampanje__IDcen__4222D4EF">
+      <End Role="cenovnik" EntitySet="cenovniks" />
+      <End Role="stampanjeracuna" EntitySet="stampanjeracunas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__clan__IDClana__5629CD9C" Association="Self.FK__clan__IDClana__5629CD9C">
+      <End Role="osoba" EntitySet="osobas" />
+      <End Role="clan" EntitySet="clans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__korisnik__IDKori__534D60F1" Association="Self.FK__korisnik__IDKori__534D60F1">
+      <End Role="osoba" EntitySet="osobas" />
+      <End Role="korisnik" EntitySet="korisniks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__statistik__IDrez__38996AB5" Association="Self.FK__statistik__IDrez__38996AB5">
+      <End Role="rezultati" EntitySet="rezultatis" />
+      <End Role="statistika" EntitySet="statistikas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__stampanje__IDter__4316F928" Association="Self.FK__stampanje__IDter__4316F928">
+      <End Role="termin" EntitySet="termins" />
+      <End Role="stampanjeracuna" EntitySet="stampanjeracunas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

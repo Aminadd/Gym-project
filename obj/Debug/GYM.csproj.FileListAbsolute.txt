@@ -1,0 +1,460 @@
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\GYM.exe.config
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\GYM.exe
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\GYM.pdb
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\EntityFramework.dll
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\EntityFramework.xml
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.clanovi.resources
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.Form1.resources
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.Nadlezni.resources
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.Properties.Resources.resources
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.Radnik.resources
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.exe
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.pdb
+c:\users\dzeki\documents\visual studio 2015\Projects\GYM\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Documents\Visual Studio 2015\Projects\GYM\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Documents\Visual Studio 2015\Projects\GYM\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Documents\Visual Studio 2015\Projects\GYM\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\GYM.exe
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Ajla\Desktop\GYM\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\GYM\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\GYM\GYM\obj\Debug\GYM.dodajKI.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.dodajKI.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\GYM1\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\GYM1\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\GYM\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\GYM - Copy\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Ajla\Desktop\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Documents\GYM - End1\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\GYM - End1\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\GYM - End1\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\Zavrseni projekti\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\Zavrseni projekti\projekatSI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\Zavrseni projekti\projekatSI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Documents\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\projekatSI\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Ajla\Desktop\projekatSIi\projekatSI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ajla\Desktop\Zavrseni projekti\projekatsabazom\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\Zavrseni projekti\projekatsabazom\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\Zavrseni projekti\projekatsabazom\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Ajla\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\MaterialSkin.dll
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\projekatSIi\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\projekatSIi - Copy\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\Gym\projekatSIi - End\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\Gym\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\Gym\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\projekatSIi - End - Copy\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\GYM.exe.config
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\GYM.exe
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\GYM.pdb
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\EntityFramework.dll
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\EntityFramework.xml
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.arhiva.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.cenovnikk.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.clanovi.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.Nadlezni.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.naplata.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.promenaLozinke.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.radnici.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.Radnik.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.rezultat.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.statistikaa.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.terminn.resources
+C:\Users\Dzeki\Desktop\Gym\Gym-SI\GYM - End\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache

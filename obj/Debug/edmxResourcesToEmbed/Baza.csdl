@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GymModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cenovnik">
+    <Key>
+      <PropertyRef Name="IDCena" />
+    </Key>
+    <Property Name="cena" Type="Int32" Nullable="false" />
+    <Property Name="tip" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDCena" Type="Int32" Nullable="false" />
+    <Property Name="poslednjePromene" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="termin" Relationship="Self.FK__termin__IDtermin__69FBBC1F" FromRole="cenovnik" ToRole="termin" />
+  </EntityType>
+  <EntityType Name="clan">
+    <Key>
+      <PropertyRef Name="IDClana" />
+    </Key>
+    <Property Name="IDClana" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="datumRodj" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="datumUpisa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="osoba" Relationship="Self.FK__clan__IDClana__3C34F16F" FromRole="clan" ToRole="osoba" />
+    <NavigationProperty Name="rezultati" Relationship="Self.FK__rezultati__JMBG1__160F4887" FromRole="clan" ToRole="rezultati" />
+  </EntityType>
+  <EntityType Name="korisnik">
+    <Key>
+      <PropertyRef Name="IDKorisnika" />
+    </Key>
+    <Property Name="KorisnickoIme" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDKorisnika" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sifra" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tip" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="osoba" Relationship="Self.FK__korisnik__IDKori__51300E55" FromRole="korisnik" ToRole="osoba" />
+  </EntityType>
+  <EntityType Name="osoba">
+    <Key>
+      <PropertyRef Name="JMBG" />
+    </Key>
+    <Property Name="Ime" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Prezime" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="brTelefona" Type="Int32" />
+    <Property Name="adresa" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="pol" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="JMBG" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="clan" Relationship="Self.FK__clan__IDClana__3C34F16F" FromRole="osoba" ToRole="clan" />
+    <NavigationProperty Name="korisnik" Relationship="Self.FK__korisnik__IDKori__51300E55" FromRole="osoba" ToRole="korisnik" />
+  </EntityType>
+  <EntityType Name="rezultati">
+    <Key>
+      <PropertyRef Name="JMBG1" />
+    </Key>
+    <Property Name="visina" Type="Double" Nullable="false" />
+    <Property Name="tezina" Type="Double" Nullable="false" />
+    <Property Name="ruke" Type="Double" Nullable="false" />
+    <Property Name="noge" Type="Double" Nullable="false" />
+    <Property Name="struk" Type="Double" Nullable="false" />
+    <Property Name="JMBG1" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="visina_epic" Type="Double" />
+    <Property Name="tezina_epic" Type="Double" />
+    <Property Name="ruke_epic" Type="Double" />
+    <Property Name="noge_epic" Type="Double" />
+    <Property Name="struk_epic" Type="Double" />
+    <Property Name="vremeUnosa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="vremeUnosa_epic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="clan" Relationship="Self.FK__rezultati__JMBG1__160F4887" FromRole="rezultati" ToRole="clan" />
+  </EntityType>
+  <EntityType Name="termin">
+    <Key>
+      <PropertyRef Name="IDtermina" />
+    </Key>
+    <Property Name="datum" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDtermina" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vreme" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tiptreninga" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ImeiPrezime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="arhivirano" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cenovnik" Relationship="Self.FK__termin__IDtermin__69FBBC1F" FromRole="termin" ToRole="cenovnik" />
+  </EntityType>
+  <Association Name="FK__termin__IDtermin__69FBBC1F">
+    <End Role="cenovnik" Type="Self.cenovnik" Multiplicity="1" />
+    <End Role="termin" Type="Self.termin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="cenovnik">
+        <PropertyRef Name="IDCena" />
+      </Principal>
+      <Dependent Role="termin">
+        <PropertyRef Name="IDtermina" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__clan__IDClana__3C34F16F">
+    <End Role="osoba" Type="Self.osoba" Multiplicity="1" />
+    <End Role="clan" Type="Self.clan" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="osoba">
+        <PropertyRef Name="JMBG" />
+      </Principal>
+      <Dependent Role="clan">
+        <PropertyRef Name="IDClana" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__rezultati__JMBG1__160F4887">
+    <End Role="clan" Type="Self.clan" Multiplicity="1" />
+    <End Role="rezultati" Type="Self.rezultati" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="clan">
+        <PropertyRef Name="IDClana" />
+      </Principal>
+      <Dependent Role="rezultati">
+        <PropertyRef Name="JMBG1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__korisnik__IDKori__51300E55">
+    <End Role="osoba" Type="Self.osoba" Multiplicity="1" />
+    <End Role="korisnik" Type="Self.korisnik" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="osoba">
+        <PropertyRef Name="JMBG" />
+      </Principal>
+      <Dependent Role="korisnik">
+        <PropertyRef Name="IDKorisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GymEntities10" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cenovniks" EntityType="Self.cenovnik" />
+    <EntitySet Name="clans" EntityType="Self.clan" />
+    <EntitySet Name="korisniks" EntityType="Self.korisnik" />
+    <EntitySet Name="osobas" EntityType="Self.osoba" />
+    <EntitySet Name="rezultatis" EntityType="Self.rezultati" />
+    <EntitySet Name="termins" EntityType="Self.termin" />
+    <AssociationSet Name="FK__termin__IDtermin__69FBBC1F" Association="Self.FK__termin__IDtermin__69FBBC1F">
+      <End Role="cenovnik" EntitySet="cenovniks" />
+      <End Role="termin" EntitySet="termins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__clan__IDClana__3C34F16F" Association="Self.FK__clan__IDClana__3C34F16F">
+      <End Role="osoba" EntitySet="osobas" />
+      <End Role="clan" EntitySet="clans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__rezultati__JMBG1__160F4887" Association="Self.FK__rezultati__JMBG1__160F4887">
+      <End Role="clan" EntitySet="clans" />
+      <End Role="rezultati" EntitySet="rezultatis" />
+    </AssociationSet>
+    <AssociationSet Name="FK__korisnik__IDKori__51300E55" Association="Self.FK__korisnik__IDKori__51300E55">
+      <End Role="osoba" EntitySet="osobas" />
+      <End Role="korisnik" EntitySet="korisniks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
